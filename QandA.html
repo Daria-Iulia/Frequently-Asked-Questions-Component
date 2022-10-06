@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="question.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -20,7 +21,7 @@
 
       body {
         font-family: "Inter", sans-serif;
-        color: #9471fb;
+        color: #495057;
         line-height: 1;
       }
 
@@ -33,7 +34,7 @@
       }
 
       .item {
-        box-shadow: 0 0 32px rgba(54, 16, 87, 0.197);
+        box-shadow: 0 0 32px rgba(52, 50, 74, 0.197);
         padding: 24px;
         display: grid;
         grid-template-columns: auto 1fr auto;
@@ -49,13 +50,13 @@
       }
 
       .number {
-        color: #5f3dc474;
+        color: #343a40;
       }
 
       .icon {
         width: 24px;
         height: 24px;
-        stroke: #321d71;
+        stroke: #343a40;
       }
 
       .hidden-box {
@@ -69,7 +70,7 @@
       }
 
       .hidden-box ul {
-        color: #a386f39f;
+        color: #868e96;
         margin-left: 20px;
         display: flex;
         flex-direction: column;
@@ -78,7 +79,16 @@
 
       .open {
         border-top: 4px solid;
-        border-image: linear-gradient(to right, #5f3dc4, #b577f2) 1;
+        border-image: linear-gradient(
+            to right,
+            #c92a2a,
+            #a61e4d,
+            #862e9c,
+            #5f3dc4,
+            #364fc7,
+            #1864ab
+          )
+          1;
       }
 
       .open .hidden-box {
@@ -87,7 +97,7 @@
 
       .open .number,
       .open .text {
-        color: #5838b8;
+        color: #495057;
       }
     </style>
   </head>
@@ -197,3 +207,4 @@
     </div>
   </body>
 </html>
+
